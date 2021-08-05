@@ -1,0 +1,164 @@
+#index {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background: white; }
+
+#contacto {
+  background: white; }
+
+#pasaporte {
+  background: white; }
+
+#viajes {
+  background: white; }
+
+.buscarDestino {
+  background-color: #58dcf3; }
+
+.formContacto {
+  display: flex;
+  justify-content: center; }
+
+#inSesion {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background: white; }
+
+.iSesion {
+  display: flex;
+  justify-content: center; }
+
+h1 {
+  color: rgba(0, 0, 0, 0.836);
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+h2 {
+  color: rgba(0, 0, 0, 0.836);
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px; }
+
+.texto {
+  color: rgba(14, 11, 11, 0.973); }
+
+.lugar {
+  color: rgba(60, 60, 202, 0.836); }
+
+#cond {
+  color: slategray; }
+
+/*p{
+    color:rgb(52, 56, 56);
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}*/
+.img-circle {
+  padding-left: 550px; }
+
+table {
+  font-family: 'Hind', sans-serif;
+  letter-spacing: 0.5px;
+  border: outset black 3px; }
+
+#tablaPaquetes {
+  margin-left: 40%; }
+
+/*.imgCentrada {
+    padding-left: 40%;
+    padding-bottom: 100px;
+}*/
+/*grid*/
+.weAre {
+  display: grid;
+  grid-template-columns: 50% 50%; }
+
+/*efecto*/
+@keyframes unEfecto {
+  form {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+#animacionLogo {
+  animation-name: unEfecto;
+  animation-duration: 1.5s;
+  width: 150px;
+  height: 150px;
+  padding-bottom: 10px; }
+
+.escala:hover {
+  transform: scale(0.9, 0.9); }
+
+#d-block w-100 {
+  width: 50px;
+  height: 20px; }
+
+.w-100 {
+  width: 70%;
+  height: 35rem; }
+
+.bg-light {
+  background-color: white !important; }
+
+.inicio__infoInicio {
+  display: flex;
+  height: 700px;
+  flex-direction: row;
+  justify-content: space-around; }
+  .inicio__infoInicio .inicio__infoInicio__1 {
+    height: 680px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black; }
+  .inicio__infoInicio .inicio__infoInicio__2 {
+    height: 550px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black; }
+  .inicio__infoInicio .inicio__infoInicio__3 {
+    height: 500px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black; }
+
+.pasaporteFormulario {
+  display: flex;
+  height: 650px;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background: white; }
+  .header .header__logo {
+    background-color: white; }
+  .header .header__nav {
+    background-color: white; }
+
+.sesion {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background: white; }
+  .sesion .sesion__titulo {
+    color: black; }
+  .sesion .sesion__formulario {
+    background-color: coral; }
